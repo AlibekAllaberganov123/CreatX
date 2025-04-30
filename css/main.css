@@ -642,12 +642,12 @@ a {
   position: absolute;
   left: 0;
   right: 0;
-  top: 6678px;
+  top: 6942px;
 }
 /* subscribe styles ends */
 /* footer styles starts */
 .footer {
-  padding: 50px;
+  padding: 50px 0;
   background-color: #1e212c;
 }
 .footer__wrapper {
