@@ -380,15 +380,14 @@ a {
 /* contact styles ends */
 /* awards styles starts */
 .awards {
-  padding: 150px 0;
+  padding: 50px 0;
 }
 .awatds__wrapper {
   display: flex;
+  gap: 128px;
   align-items: center;
 }
-.awards__left {
-  width: 392px;
-}
+
 .awards__subtitle {
   font-size: 16px;
   font-weight: 700;
@@ -410,14 +409,10 @@ a {
   align-items: center;
 }
 .awards__right {
-  position: absolute;
-  top: 4000px;
-  left: 1400px;
+  position: relative;
+  top: 150px;
 }
-.awards__img-4 {
-  position: absolute;
-  top: 100px;
-}
+
 /* awards styles ends */
 /* hero styles starts */
 .hero {
