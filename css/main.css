@@ -386,12 +386,17 @@ a {
   display: flex;
   align-items: center;
 }
+.awards__left {
+  width: 392px;
+}
 .awards__subtitle {
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 700;
   margin-bottom: 30px;
 }
 .awards__title {
   font-size: 46px;
+  font-weight: 900;
   margin-bottom: 40px;
 }
 .awards__p {
