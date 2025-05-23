@@ -380,7 +380,7 @@ a {
 /* contact styles ends */
 /* awards styles starts */
 .awards {
-  padding: 150px;
+  padding: 150px 0;
 }
 .awatds__wrapper {
   display: flex;
