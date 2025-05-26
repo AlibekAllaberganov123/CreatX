@@ -380,7 +380,7 @@ a {
 /* contact styles ends */
 /* awards styles starts */
 .awards {
-  padding: 50px 0;
+  padding: 20px 0;
 }
 .awatds__wrapper {
   display: flex;
@@ -410,7 +410,7 @@ a {
 }
 .awards__right {
   position: relative;
-  top: 150px;
+  top: 100px;
 }
 
 /* awards styles ends */
@@ -429,9 +429,11 @@ a {
 .hero__subtitle {
   font-size: 16px;
   margin-bottom: 15px;
+  font-weight: 700;
 }
 .hero__title {
   font-size: 46px;
+  font-weight: 900;
 }
 .hero__top--right {
   cursor: pointer;
@@ -457,12 +459,15 @@ a {
 }
 .hero__img {
   width: 285px;
-  height: 300px;
+  height: 340px;
   border-radius: 4px;
+  background-color: #ffcf2d;
+  padding-top: 10px;
 }
 .hero__card--title {
   font-size: 20px;
   margin-bottom: 5px;
+  font-weight: 700;
 }
 .hero__card--p {
   font-size: 16px;
