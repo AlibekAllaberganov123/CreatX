@@ -551,18 +551,28 @@ a {
   background-color: #ff3f3a;
   color: #fff;
 }
+.box {
+  display: flex;
+  gap: 20px;
+}
+.comment__img {
+  position: relative;
+  bottom: 50px;
+}
 .comment__p {
   font-size: 20px;
   width: 752px;
-  display: flex;
+  text-align: justify;
   gap: 30px;
+  color: #424551;
+  line-height: 150%;
 }
 .comment__card--user {
   display: flex;
   gap: 20px;
   align-items: center;
   text-align: center;
-  margin-left: 120px;
+  margin-left: 80px;
 }
 .comment__card--title {
   font-size: 16px;
