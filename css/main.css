@@ -519,7 +519,7 @@ a {
 .comment__box {
   gap: 30px;
 }
-.comment__btn {
+/* .comment__btn {
   width: 48px;
   height: 48px;
   background: none;
@@ -534,6 +534,22 @@ a {
   color: #fff;
   border-radius: 50%;
   padding: 15px;
+} */
+.comment__btn {
+  width: 48px;
+  height: 48px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.comment__btn > i {
+  color: #424551;
+  padding: 10px;
+}
+.comment__btn > i:hover {
+  border-radius: 50%;
+  background-color: #ff3f3a;
+  color: #fff;
 }
 .comment__p {
   font-size: 20px;
@@ -564,7 +580,7 @@ a {
   gap: 30px;
 }
 .comment__dot {
-  width: 50px;
+  width: 30px;
   height: 5px;
   border-radius: 40px;
   background-color: #ccc;
