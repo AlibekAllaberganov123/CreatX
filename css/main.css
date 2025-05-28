@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
   color: #1e212c;
+  transition: all 0.3s ease;
 }
 .container {
   max-width: 1230px;
@@ -443,10 +444,17 @@ a {
   align-items: center;
   transition: all 0.3s linear;
 }
-.hero__top--right > i {
+.hero__btn {
+  width: 48px;
+  height: 48px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.hero__btn > i {
   font-size: 20px;
 }
-.hero__top--right > i:hover {
+.hero__btn > i:hover {
   background-color: #ff3f3a;
   color: #fff;
   border-radius: 50%;
@@ -465,9 +473,11 @@ a {
   padding-top: 10px;
 }
 .hero__card--title {
+  color: #424551;
   font-size: 20px;
   margin-bottom: 5px;
   font-weight: 700;
+  margin: 10px 0;
 }
 .hero__card--p {
   font-size: 16px;
@@ -488,7 +498,7 @@ a {
 }
 .comment__title {
   font-size: 46px;
-  margin-bottom: 30px;
+  margin-bottom: -20px;
 }
 .comment__bottom {
   display: flex;
@@ -509,7 +519,17 @@ a {
 .comment__box {
   gap: 30px;
 }
-.comment__bottom i:hover {
+.comment__btn {
+  width: 48px;
+  height: 48px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.comment__btn i {
+  font-size: 20px;
+}
+.comment__btn i:hover {
   background-color: #ff3f3a;
   color: #fff;
   border-radius: 50%;
@@ -534,6 +554,24 @@ a {
 .comment__card--p {
   font-size: 14px;
   color: #787a80;
+}
+.comment__dots {
+  position: relative;
+  top: 200px;
+  right: 100%;
+  display: flex;
+  margin-left: 500px;
+  gap: 30px;
+}
+.comment__dot {
+  width: 50px;
+  height: 5px;
+  border-radius: 40px;
+  background-color: #ccc;
+}
+.comment__dot:active {
+  background-color: #000;
+  opacity: 1;
 }
 /* comment styles ends */
 /* box styles starts */
@@ -645,10 +683,10 @@ a {
 .subscribe__images {
   display: flex;
   justify-content: space-between;
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
-  top: 6942px;
+  bottom: 32px;
 }
 /* subscribe styles ends */
 /* footer styles starts */
