@@ -182,7 +182,6 @@ a {
   font-size: 16px;
   border-radius: 6px;
 }
-
 .event__cards {
   display: flex;
   flex-wrap: wrap;
@@ -310,9 +309,11 @@ a {
 }
 .contact__subtitle {
   font-size: 16px;
+  font-weight: 700;
 }
 .contact__title {
   font-size: 46px;
+  font-weight: 900;
   margin-bottom: 30px;
 }
 .contact__cards {
@@ -324,13 +325,16 @@ a {
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
-  padding: 15px 10px;
-  border-radius: 6px;
+  padding: 20px;
+  border-radius: 4px;
   transition: all 0.3s linear;
 }
 .contact__card:hover {
   transform: scale(1.05);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.contact__bottom--left {
+  display: flex;
 }
 .contact__bottom--left > span {
   font-size: 48px;
@@ -338,6 +342,7 @@ a {
 .contact__bottom--title,
 .contact__bottom--title {
   font-size: 20px;
+  font-weight: 700;
   margin-bottom: 5px;
 }
 .contact__bottom--p,
@@ -355,9 +360,10 @@ a {
   font-size: 25px;
 }
 .contact__btn {
-  padding: 14px 50px;
+  padding: 0 32px;
   border: 1px solid #ff3f3a;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: 700;
   border-radius: 6px;
   background-color: #fff;
   color: #ff3f3a;
@@ -510,7 +516,7 @@ a {
 }
 .comment__card {
   background-color: #fff;
-  padding: 50px;
+  padding: 40px 80px;
   border-radius: 4px;
   text-align: center;
   align-items: center;
@@ -519,22 +525,7 @@ a {
 .comment__box {
   gap: 30px;
 }
-/* .comment__btn {
-  width: 48px;
-  height: 48px;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-.comment__btn i {
-  font-size: 20px;
-}
-.comment__btn i:hover {
-  background-color: #ff3f3a;
-  color: #fff;
-  border-radius: 50%;
-  padding: 15px;
-} */
+
 .comment__btn {
   width: 48px;
   height: 48px;
