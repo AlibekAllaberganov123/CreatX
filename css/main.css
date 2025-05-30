@@ -298,8 +298,10 @@ a {
 /* blog styles ends */
 /* contact styles starts */
 .contact {
-  padding: 50px;
-  background-color: #fedad4;
+  padding: 200px 0 100px;
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .contact__wrapper {
   display: block;
